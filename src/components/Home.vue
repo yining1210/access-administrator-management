@@ -3,7 +3,7 @@
     <!-- 头部 -->
     <el-header>
       <div>
-        <img src="../assets/logo.png" alt />·
+        <img src="../assets/logo.png" alt />·出入管理后台系统
       </div>
       <el-button type="info" @click="logout">退出</el-button>
     </el-header>
