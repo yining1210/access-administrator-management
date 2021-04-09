@@ -28,11 +28,11 @@ export default {
       },
       dataset: {
         source: [
-          ['product', '2012', '2013', '2014', '2015', '2016', '2017'],
-          ['Matcha Latte', 41.1, 30.4, 65.1, 53.3, 83.8, 98.7],
-          ['Milk Tea', 86.5, 92.1, 85.7, 83.1, 73.4, 55.1],
-          ['Cheese Cocoa', 24.1, 67.2, 79.5, 86.4, 65.2, 82.5],
-          ['Walnut Brownie', 55.2, 67.1, 69.2, 72.4, 53.9, 39.1]
+          ['2020', '2020.7', '2020.8', '2020.9', '2020.10', '2020.11', '2020.12'],
+          ['Henan Province', 41.1, 30.4, 65.1, 53.3, 83.8, 98.7],
+          ['Zhejiang Province', 86.5, 92.1, 85.7, 83.1, 73.4, 55.1],
+          ['Hubei Province', 24.1, 67.2, 79.5, 86.4, 65.2, 82.5],
+          ['Guangdong Province', 55.2, 67.1, 69.2, 72.4, 53.9, 39.1]
         ]
       },
       xAxis: { type: 'category' },
@@ -49,12 +49,12 @@ export default {
           radius: '30%',
           center: ['50%', '25%'],
           label: {
-            formatter: '{b}: {@2012} ({d}%)'
+            formatter: '{b}: {@2020} ({d}%)'
           },
           encode: {
             itemName: 'product',
-            value: '2012',
-            tooltip: '2012'
+            value: '2020',
+            tooltip: '2020'
           }
         }
       ]
